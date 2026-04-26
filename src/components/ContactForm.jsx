@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { validarEmail, generarId, formatearFecha } from '../helpers/utils';
-import { enviarMensaje } from '../services/contactoService';
+import { enviarMensaje } from "../services/contactoService";
+var _jsxFileName = "C:/Users/anama/OneDrive/Desktop/entrega-momento-dos/src/components/ContactForm.jsx";
+import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
 
 const estadoInicial = {
   nombre: '',

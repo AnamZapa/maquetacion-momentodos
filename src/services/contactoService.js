@@ -2,11 +2,6 @@
 
 const MENSAJES_KEY = 'urban_threads_mensajes';
 
-/**
- * Guarda un mensaje de contacto en localStorage y lo muestra en consola
- * @param {Object} datos - Datos del formulario de contacto
- * @returns {Promise<Object>}
- */
 export const enviarMensaje = (datos) => {
   return new Promise((resolve) => {
     setTimeout(() => {
@@ -28,10 +23,6 @@ export const enviarMensaje = (datos) => {
   });
 };
 
-/**
- * Obtiene todos los mensajes guardados
- * @returns {Array}
- */
 export const obtenerMensajes = () => {
   return JSON.parse(localStorage.getItem(MENSAJES_KEY) || '[]');
 };
