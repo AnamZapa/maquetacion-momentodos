@@ -1,0 +1,55 @@
+/* ===== URBAN THREADS - GLOBAL STYLES ===== */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --color-bg: #0a0a0a;
+  --color-surface: #111111;
+  --color-surface-2: #1a1a1a;
+  --color-accent: #c8ff00;
+  --color-accent-dark: #a8d900;
+  --color-text: #f0f0f0;
+  --color-text-muted: #888;
+  --color-border: #2a2a2a;
+  --font-display: 'Bebas Neue', cursive;
+  --font-body: 'Barlow', sans-serif;
+  --nav-height: 70px;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-weight: 400;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: var(--font-body);
+}
+
+input, textarea, select {
+  font-family: var(--font-body);
+}
